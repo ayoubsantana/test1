@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Once Human - Play Now on PC</title>
+  <meta name="description"
+    content="Survive the contamination. Build, explore, and fight in a massive open-world survival game. Available on Windows PC via Steam." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Premium futuristic fonts: Rajdhani for extreme sci-fi feel, Inter for readable body -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="theme-cyber">
+  <!-- Dynamic Animated Background Layers -->
+  <div class="bg-fx" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-noise"></div>
+  </div>
+
+  <!-- Sticky CTA -->
+  <div id="sticky-header" class="sticky-header hidden">
+    <div class="container flex-between align-center">
+      <div class="logo-box">
+        <div class="logo-glitch" data-text="ONCE HUMAN">ONCE HUMAN</div>
+      </div>
+      <a href="#" class="btn btn-cyber cta-btn" data-location="sticky">
+        <span class="btn-text">INITIALIZE DOWNLOAD</span>
+        <span class="btn-glitch"></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- OS Gate Overlay -->
+  <div id="os-gate" class="overlay glass-panel hidden">
+    <div class="overlay-content cyber-borders">
+      <h2 class="neon-text">SYSTEM INCOMPATIBLE</h2>
+      <p>Once Human is currently accessed exclusively via Windows PC.</p>
+      <p class="small-text mt-2">Add to your Steam wishlist from this device.</p>
+      <div class="mt-4">
+        <a href="https://store.steampowered.com/app/2139460/Once_Human/" target="_blank" class="btn btn-outline">ACCESS
+          STEAM</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Geo Gate Overlay -->
+  <div id="geo-gate" class="overlay glass-panel hidden">
+    <div class="overlay-content cyber-borders">
+      <h2 id="geoBlock-title" class="neon-text">REGION LOCKED</h2>
+      <p id="geoBlock-desc">Signal lost. Once Human is currently not supported in your territory.</p>
+      <div class="mt-4">
+        <a href="https://store.steampowered.com/search/?term=once+human" target="_blank" class="btn btn-outline"
+          id="geoBlock-btn">SEARCH GLOBAL SECURE NET</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="app-content">
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg">
+        <div class="hero-vignette"></div>
+      </div>
+
+      <div class="container hero-content flex-row">
+        <div class="hero-text shrink-0 glass-panel cyber-borders hero-glass">
+
+          <h1 id="hero-headline" class="display-text text-glitch" data-text="Build. Defend. Survive the contamination.">
+            Build. Defend. Survive the contamination.</h1>
+          <p id="hero-subhead" class="lead-text">The world is ruined. Rebuild what's yours and fight to keep it.</p>
+
+          <ul id="hero-bullets" class="feature-bullets">
+            <li>Explore a seamless open map</li>
+            <li>Scavenge supernatural anomalies</li>
+            <li>Construct unbreakable bases</li>
+          </ul>
+
+          <div class="hero-cta-wrapper">
+            <a href="#" class="btn btn-cyber btn-large cta-btn w-full" data-location="hero" id="hero-cta">
+              <span class="btn-text">START SURVIVING NOW</span>
+            </a>
+            <p class="trust-micro text-center mt-2 flex-center gap-2" id="hero-ctaMicro">
+              <span class="status-dot"></span> Takes a minute to start. Install via Steam on Windows.
+            </p>
+          </div>
+
+          <div class="trust-row flex-center gap-2 mt-4">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--accent-primary)">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-2h2v2zm0-4h-2V7h2v6z" />
+            </svg>
+            <span id="trustMicro">Windows PC • Steam download • No signup</span>
+          </div>
+        </div>
+
+        <div class="hero-media p-rel">
+          <div class="video-container cyber-borders glass-panel"
+            style="width: 100%; aspect-ratio: 16/9; overflow: hidden; position: relative;">
+
+            <div class="badge-system"
+              style="position: absolute; top: 1rem; left: 1rem; z-index: 10; background: rgba(0,0,0,0.6); backdrop-filter: blur(4px); padding: 4px 8px;">
+              ONCE HUMAN // SYS.VER_2.4.1
+            </div>
+
+            <video src="/vdtest.mp4" autoplay muted loop playsinline controls
+              style="position: absolute; top:0; left:0; width: 100%; height: 100%; object-fit: cover;"></video>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- STEP BAR (Progress) -->
+    <div class="step-bar-wrapper">
+      <div class="container">
+        <div class="step-bar glass-panel cyber-borders flex-between">
+          <div class="step">
+            <div class="step-hex">1</div> <span id="s1">Download on Steam</span>
+          </div>
+          <div class="step-line"><span></span></div>
+          <div class="step">
+            <div class="step-hex">2</div> <span id="s2">Install</span>
+          </div>
+          <div class="step-line"><span></span></div>
+          <div class="step">
+            <div class="step-hex">3</div> <span id="s3">Launch</span>
+          </div>
+          <div class="step-line"><span></span></div>
+          <div class="step active-step">
+            <div class="step-hex">4</div> <span id="s4">Create your role</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURES / WHY YOU'LL LOVE IT -->
+    <section class="features-section section-padding p-rel">
+      <div class="container relative z-10">
+        <div class="section-badge mb-2">DATABASE UPLINK</div>
+        <h2 class="section-title neon-text" id="feat-title">Why You'll Love Once Human</h2>
+
+        <div class="grid grid-3x2 mt-4" id="feature-grid">
+          <!-- Hydrated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- FANTASY NARRATIVE -->
+    <section class="narrative-section glass-panel mt-4 mb-4">
+      <div class="container text-center max-w-lg">
+        <div class="danger-icon mb-2">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--danger)" stroke-width="2">
+            <path
+              d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0zM12 9v4m0 4h.01" />
+          </svg>
+        </div>
+        <h3 class="narrative-text" id="nar-text">The contamination is spreading. The old world is dead. You are a
+          Meta-Human. Evolve or die.</h3>
+        <p class="narrative-bullets neon-text mt-4" id="nar-bullets">Explore • Scavenge • Build • Survive • Hunt</p>
+      </div>
+    </section>
+
+    <!-- GAMEPLAY LOOP -->
+    <section class="loop-section section-padding">
+      <div class="container">
+        <div class="section-badge mb-2">TACTICAL CYCLE</div>
+        <h2 class="section-title" id="loop-title">The Gameplay Loop</h2>
+
+        <div class="loop-timeline mt-4" id="loop-timeline">
+          <!-- Hydrated by JS -->
+        </div>
+
+        <div class="text-center mt-4">
+          <a href="#" class="btn btn-cyber cta-btn" data-location="loop" id="loop-cta">
+            <span class="btn-text">INITIALIZE SEQUENCE</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SYSTEM REQ -->
+    <section class="sys-req-section section-padding p-rel">
+      <div class="container relative z-10">
+        <div class="section-badge mb-2">SYS.REQ</div>
+        <h2 id="req-title" class="section-title neon-text">System Requirements</h2>
+        <div class="grid grid-3x2 mt-4" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+          <div class="glass-panel cyber-borders p-4">
+            <h3 id="req-min-label" class="sub-title mb-2 text-muted">Minimum</h3>
+            <ul class="req-list text-muted" style="list-style: none;">
+              <li class="mb-1"><strong class="text-main">OS:</strong> <span id="req-min-os"></span></li>
+              <li class="mb-1"><strong class="text-main">Processor:</strong> <span id="req-min-cpu"></span></li>
+              <li class="mb-1"><strong class="text-main">Memory:</strong> <span id="req-min-ram"></span></li>
+              <li class="mb-1"><strong class="text-main">Graphics:</strong> <span id="req-min-gpu"></span></li>
+              <li class="mb-1"><strong class="text-main">Storage:</strong> <span id="req-min-storage"></span></li>
+            </ul>
+          </div>
+          <div class="glass-panel cyber-borders p-4" style="border-color: var(--accent-primary);">
+            <h3 id="req-rec-label" class="sub-title mb-2 neon-text">Recommended</h3>
+            <ul class="req-list text-muted" style="list-style: none;">
+              <li class="mb-1"><strong class="text-main">OS:</strong> <span id="req-rec-os"></span></li>
+              <li class="mb-1"><strong class="text-main">Processor:</strong> <span id="req-rec-cpu"></span></li>
+              <li class="mb-1"><strong class="text-main">Memory:</strong> <span id="req-rec-ram"></span></li>
+              <li class="mb-1"><strong class="text-main">Graphics:</strong> <span id="req-rec-gpu"></span></li>
+              <li class="mb-1"><strong class="text-main">Storage:</strong> <span id="req-rec-storage"></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- FINAL CTA -->
+    <section class="final-cta-section p-rel section-padding text-center">
+      <div class="hero-overlay"></div>
+      <div class="container relative z-10 glass-panel cyber-borders p-4" style="max-width: 800px; margin: 0 auto;">
+        <h2 class="display-text text-glitch mb-2" data-text="READY TO FACE THE CONTAMINATION?">READY TO FACE THE
+          CONTAMINATION?</h2>
+        <p class="lead-text mb-4">The servers are online. Your squad awaits.</p>
+        <a href="#" class="btn btn-cyber btn-large cta-btn" data-location="footer">
+          <span class="btn-text">INSTALL NOW ON STEAM</span>
+        </a>
+        <p class="mt-4 trust-micro flex-center gap-2">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+            <line x1="8" y1="21" x2="16" y2="21" />
+            <line x1="12" y1="17" x2="12" y2="21" />
+          </svg>
+          Available on Windows PC via Steam.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer mt-4">
+    <div class="container flex-between align-center flex-wrap gap-2">
+      <div class="footer-links flex-center gap-2">
+        <span id="footer-privacy" class="footer-btn">Privacy Policy • Cookies</span>
+        <span class="text-muted">|</span>
+        <select id="lang-selector" class="lang-selector cyber-select">
+          <option value="US">US_NET [EN]</option>
+          <option value="CA">CA_NET [EN]</option>
+          <option value="GB">EU_NET [EN]</option>
+          <option value="DE">EU_NET [DE]</option>
+          <option value="FR">EU_NET [FR]</option>
+        </select>
+      </div>
+      <p class="footer-disclosure text-muted text-sm" id="footer-disclosure">Disclosure: This page may contain affiliate
+        links. If you install the game through these links, we may earn a small commission.</p>
+    </div>
+  </footer>
+
+
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

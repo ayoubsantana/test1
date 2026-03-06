@@ -1,0 +1,173 @@
+{
+  "hero": {
+    "variants": {
+      "1": {
+        "headline": "Build. Defend. Survive the contamination.",
+        "subhead": "The world is ruined. Rebuild what's yours and fight to keep it in this massive open-world survival game.",
+        "bullets": [
+          "Explore a seamless open map",
+          "Scavenge supernatural anomalies",
+          "Construct unbreakable bases"
+        ],
+        "cta": "Start Surviving Now",
+        "ctaMicro": "Takes a minute to start. Install via Steam on Windows."
+      },
+      "2": {
+        "headline": "Squad up—or go alone—against the mutated unknown.",
+        "subhead": "A supernatural apocalypse has claimed the earth. Team up with friends or test your solo survival skills.",
+        "bullets": [
+          "Co-op and Solo PvE modes",
+          "Hunt mutated bosses",
+          "Craft advanced weaponry"
+        ],
+        "cta": "Play Free on PC",
+        "ctaMicro": "Takes a minute to start. Install via Steam on Windows."
+      },
+      "3": {
+        "headline": "Loot, craft, upgrade—push deeper into a ruined world.",
+        "subhead": "Progression is everything. Gather resources, forge powerful gear, and conquer the contamination.",
+        "bullets": [
+          "Deep crafting mechanics",
+          "Dynamic progression system",
+          "Unlock advanced tech"
+        ],
+        "cta": "Download and Craft",
+        "ctaMicro": "Takes a minute to start. Install via Steam on Windows."
+      }
+    },
+    "trustMicro": "Windows PC • Steam download • No signup",
+    "stepBar": {
+      "s1": "Download on Steam",
+      "s2": "Install",
+      "s3": "Launch",
+      "s4": "Create your role"
+    }
+  },
+  "features": {
+    "title": "Why You'll Love Once Human",
+    "cards": [
+      {
+        "icon": "map",
+        "title": "Open-World Survival",
+        "desc": "Explore a massive, contiguous map filled with secrets and dangers."
+      },
+      {
+        "icon": "hammer",
+        "title": "Loot & Craft",
+        "desc": "Scavenge resources to forge deadly weapons and advanced gear."
+      },
+      {
+        "icon": "home",
+        "title": "Base-Building",
+        "desc": "Construct, upgrade, and defend your territory against supernatural threats."
+      },
+      {
+        "icon": "skull",
+        "title": "Mutated Creatures",
+        "desc": "Fight through nightmarish anomalies that defy physical reality."
+      },
+      {
+        "icon": "users",
+        "title": "Solo or Squad",
+        "desc": "Brave the world alone or team up with friends to conquer the hardest zones."
+      },
+      {
+        "icon": "shield",
+        "title": "PvE-First",
+        "desc": "Focus on the story and environment, with optional PvP modes for hardcore players."
+      }
+    ]
+  },
+  "narrative": {
+    "text": "The contamination is spreading. The old world is dead. You are a Meta-Human. Evolve or die.",
+    "bullets": "Explore • Scavenge • Build • Survive • Hunt"
+  },
+  "loop": {
+    "title": "The Gameplay Loop",
+    "steps": [
+      {
+        "title": "Explore",
+        "desc": "Venture into the unknown"
+      },
+      {
+        "title": "Loot",
+        "desc": "Gather rare materials"
+      },
+      {
+        "title": "Craft/Upgrade",
+        "desc": "Improve your arsenal"
+      },
+      {
+        "title": "Build/Defend",
+        "desc": "Protect your territory"
+      }
+    ],
+    "cta": "Join the Loop"
+  },
+  "requirements": {
+    "title": "System Requirements",
+    "min": {
+      "label": "Minimum",
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel Core i5-4460",
+      "ram": "8 GB RAM",
+      "gpu": "Nvidia GTX 750 Ti / AMD Radeon R9 270",
+      "storage": "55 GB available space"
+    },
+    "rec": {
+      "label": "Recommended",
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel Core i7-7700",
+      "ram": "16 GB RAM",
+      "gpu": "Nvidia GTX 1060 / AMD Radeon RX 580",
+      "storage": "55 GB SSD"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Is it available on Mac / console?",
+        "a": "No, Once Human is currently available exclusively on Windows PC via Steam."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "Yes, a Steam account is required to download and play the game."
+      },
+      {
+        "q": "Can I play solo?",
+        "a": "Absolutely. You can play through the game solo or join a squad."
+      },
+      {
+        "q": "Is it PvE or PvP?",
+        "a": "The game is PvE-focused, but PvP is optional depending on the mode and server you choose."
+      },
+      {
+        "q": "Is it scary?",
+        "a": "It features a dark, eerie sci-fi horror atmosphere full of mutated and supernatural threats."
+      },
+      {
+        "q": "My Steam says not available",
+        "a": "The game's availability depends on your region. Downloads may also be blocked if you are using a VPN."
+      },
+      {
+        "q": "Is this the official site?",
+        "a": "No, this is an informational page. The actual game download is handled officially through Steam."
+      },
+      {
+        "q": "How do I start fast?",
+        "a": "Simply click the download link, install via Steam, launch the game, and create your role to begin."
+      }
+    ]
+  },
+  "footer": {
+    "disclosure": "Disclosure: This page may contain affiliate links. If you install the game through these links, we may earn a small commission.",
+    "privacy": "Privacy Policy • Cookies",
+    "notWindows": "Available on Windows PC via Steam."
+  },
+  "geoBlock": {
+    "title": "Not available in your region",
+    "desc": "Once Human is currently not supported in your location.",
+    "btn": "Search on Steam"
+  }
+}

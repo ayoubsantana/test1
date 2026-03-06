@@ -1,0 +1,173 @@
+{
+    "hero": {
+        "variants": {
+            "1": {
+                "headline": "Construisez. Défendez. Survivez à la contamination.",
+                "subhead": "Le monde est en ruines. Reconstruisez ce qui est à vous et battez-vous pour le garder.",
+                "bullets": [
+                    "Explorez une carte ouverte continue",
+                    "Pillez des anomalies surnaturelles",
+                    "Construisez des bases incassables"
+                ],
+                "cta": "Commencez à survivre",
+                "ctaMicro": "L'installation prend une minute. Sur PC Windows via Steam."
+            },
+            "2": {
+                "headline": "En équipe ou en solo face à l'inconnu muté.",
+                "subhead": "Une apocalypse surnaturelle. Faites équipe avec des amis ou testez vos compétences en solo.",
+                "bullets": [
+                    "Modes PvE en coop et solo",
+                    "Chassez des boss mutés",
+                    "Fabriquez des armes avancées"
+                ],
+                "cta": "Jouez gratuitement sur PC",
+                "ctaMicro": "L'installation prend une minute. Sur PC Windows via Steam."
+            },
+            "3": {
+                "headline": "Pillez, fabriquez, améliorez. Enfoncez-vous dans un monde en ruine.",
+                "subhead": "La progression est primordiale. Récoltez des ressources et forgez des équipements puissants.",
+                "bullets": [
+                    "Mécaniques de fabrication profondes",
+                    "Système de progression dynamique",
+                    "Débloquez des technologies avancées"
+                ],
+                "cta": "Télécharger et fabriquer",
+                "ctaMicro": "L'installation prend une minute. Sur PC Windows via Steam."
+            }
+        },
+        "trustMicro": "PC Windows • Téléchargement Steam • Pas d'inscription",
+        "stepBar": {
+            "s1": "Télécharger sur Steam",
+            "s2": "Installer",
+            "s3": "Lancer",
+            "s4": "Créer votre rôle"
+        }
+    },
+    "features": {
+        "title": "Pourquoi vous allez adorer Once Human",
+        "cards": [
+            {
+                "icon": "map",
+                "title": "Survie en monde ouvert",
+                "desc": "Explorez une carte massive remplie de secrets et de dangers."
+            },
+            {
+                "icon": "hammer",
+                "title": "Pillage et fabrication",
+                "desc": "Récoltez des ressources pour forger des armes mortelles."
+            },
+            {
+                "icon": "home",
+                "title": "Construction de base",
+                "desc": "Construisez, améliorez et défendez votre territoire."
+            },
+            {
+                "icon": "skull",
+                "title": "Créatures mutées",
+                "desc": "Combattez des anomalies cauchemardesques."
+            },
+            {
+                "icon": "users",
+                "title": "En solo ou en équipe",
+                "desc": "Affrontez le monde seul ou faites équipe avec vos amis."
+            },
+            {
+                "icon": "shield",
+                "title": "PvE en priorité",
+                "desc": "Concentrez-vous sur l'histoire, avec des modes PvP optionnels."
+            }
+        ]
+    },
+    "narrative": {
+        "text": "La contamination se propage. L'ancien monde est mort. Vous êtes un Méta-Humain. Évoluez ou mourez.",
+        "bullets": "Explorer • Piller • Construire • Survivre • Chasser"
+    },
+    "loop": {
+        "title": "La boucle de gameplay",
+        "steps": [
+            {
+                "title": "Explorer",
+                "desc": "Aventurez-vous dans l'inconnu"
+            },
+            {
+                "title": "Piller",
+                "desc": "Récoltez des matériaux rares"
+            },
+            {
+                "title": "Fabriquer",
+                "desc": "Améliorez votre arsenal"
+            },
+            {
+                "title": "Défendre",
+                "desc": "Protégez votre territoire"
+            }
+        ],
+        "cta": "Rejoindre la boucle"
+    },
+    "requirements": {
+        "title": "Configuration requise",
+        "min": {
+            "label": "Minimum",
+            "os": "Windows 10 64 bits",
+            "cpu": "Intel Core i5-4460",
+            "ram": "8 Go de mémoire",
+            "gpu": "Nvidia GTX 750 Ti / AMD Radeon R9 270",
+            "storage": "55 Go d'espace disponible"
+        },
+        "rec": {
+            "label": "Recommandée",
+            "os": "Windows 10 64 bits",
+            "cpu": "Intel Core i7-7700",
+            "ram": "16 Go de mémoire",
+            "gpu": "Nvidia GTX 1060 / AMD Radeon RX 580",
+            "storage": "55 Go d'espace (SSD)"
+        }
+    },
+    "faq": {
+        "title": "Foire aux questions",
+        "items": [
+            {
+                "q": "Est-ce disponible sur Mac / console ?",
+                "a": "Non, Once Human est actuellement disponible exclusivement sur PC Windows."
+            },
+            {
+                "q": "Ai-je besoin d'un compte ?",
+                "a": "Oui, un compte Steam est requis pour télécharger et jouer au jeu."
+            },
+            {
+                "q": "Puis-je jouer en solo ?",
+                "a": "Absolument. Vous pouvez jouer en solo ou rejoindre une escouade."
+            },
+            {
+                "q": "Est-ce un jeu PvE ou PvP ?",
+                "a": "Le jeu se concentre sur le PvE, mais le PvP est optionnel selon le mode choisi."
+            },
+            {
+                "q": "Fait-il peur ?",
+                "a": "Le jeu propose une atmosphère horrifique sombre et de la science-fiction étrange."
+            },
+            {
+                "q": "Mon Steam indique que c'est indisponible",
+                "a": "La disponibilité dépend de votre région. Un VPN peut empêcher le téléchargement."
+            },
+            {
+                "q": "Est-ce le site officiel ?",
+                "a": "Non, c'est une page d'information. Le téléchargement se fait via Steam."
+            },
+            {
+                "q": "Comment commencer rapidement ?",
+                "a": "Cliquez sur Télécharger, installez via Steam, lancez le jeu, et créez votre personnage."
+            }
+        ]
+    },
+    "footer": {
+        "disclosure": "Divulgation : Cette page peut contenir des liens d'affiliation. Si vous installez le jeu, nous pourrions percevoir une petite commission.",
+        "privacy": "Politique de confidentialité • Cookies",
+        "notWindows": "Disponible sur PC Windows via Steam."
+    },
+    "geoBlock": {
+        "title": "Indisponible dans votre région",
+        "desc": "Once Human n'est actuellement pas supporté dans votre zone.",
+        "btn": "Rechercher sur Steam"
+    }
+}
